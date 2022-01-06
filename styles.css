@@ -1,7 +1,10 @@
 body {
   position: relative;
-  width: 100%;
+  width: 360px;
+  height: 640px;
 }
+
+/* Header tag properties */
 
 .header {
   display: flex;
@@ -19,6 +22,8 @@ body {
   line-height: 20px;
 }
 
+/* logo color and decoration */
+
 .logo {
   color: #6070ff;
   text-decoration: none;
@@ -29,7 +34,6 @@ body {
 }
 
 .fas {
-  width: 200px;
   font-size: 20px;
   margin-left: 200px;
 }
@@ -37,6 +41,8 @@ body {
 .fas:hover {
   color: #6070ff;
 }
+
+/* section */
 
 .content-name {
   background-image: url('./src-image/header-shapes-mobile@2x.svg');
@@ -50,9 +56,6 @@ body {
   width: 310px;
   padding-left: 24px;
   padding-top: 62px;
-
-  /* Header / 2 */
-
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -78,17 +81,11 @@ body {
 
 .more_det {
   padding-left: 23px;
-
-  /* Body / 2 - Bolder */
-
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-
-  /* Primary/B300 */
-
   color: #7f8cff;
   margin: 1px 8px;
 }

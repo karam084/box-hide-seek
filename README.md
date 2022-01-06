@@ -2,7 +2,7 @@
 
 > This is the personal Portfolio of Karam Fouad - Web Developer
 
-![screenshot](https://user-images.githubusercontent.com/77942746/148306488-6d334168-cc7d-488a-a078-9089ae49878c.png)
+![screenshot](https://user-images.githubusercontent.com/77942746/148373306-0321ca6e-4c2f-4429-8e00-2198911fae96.png)
 
 Additional description about the project and its features.
 
