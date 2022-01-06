@@ -50,6 +50,10 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  border: 1px solid #dfe1e6;
+  border-bottom-left-radius: 20px;
+  border-top: none;
+  border-right: none;
 }
 
 .my_name {
@@ -125,4 +129,161 @@ body {
   right: 48.22%;
   top: 77.81%;
   bottom: 18.87%;
+}
+
+.work-card {
+  display: grid;
+  grid-template-rows: 38% 11% auto auto auto;
+  justify-content: space-evenly;
+  padding: 16px;
+  width: 85%;
+  height: 600px;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin-top: 90px;
+  margin-left: 10%;
+}
+
+.work_img {
+  background-image: url(src-image/Snapshoot-Portfolio.png);
+  background-repeat: no-repeat;
+  width: 290px;
+}
+
+.name-pro {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 1px;
+  color: #172b4d;
+}
+
+.work_name2 {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  list-style-type: circle;
+  gap: 20px;
+  padding-left: 10px;
+}
+
+.work-detail {
+  display: grid;
+  grid-auto-flow: column;
+  margin-left: -32px;
+}
+
+.canopy {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  list-style: none;
+}
+
+.dev {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.year {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.detail-cls {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.button-desc {
+  display: grid;
+  justify-content: start;
+  grid-auto-flow: column;
+  list-style: none;
+}
+
+.htm {
+  padding: 4px 12px;
+  height: 20px;
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+}
+
+.htm:hover {
+  color: blueviolet;
+}
+
+.css {
+  padding: 4px 12px;
+  height: 20px;
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+  margin-left: 10px;
+}
+
+.css:hover {
+  color: blueviolet;
+}
+
+.javascript {
+  padding: 4px 12px;
+  height: 20px;
+  background: #ebebff;
+  border-radius: 8px;
+  color: #7f8cff;
+  margin-left: 10px;
+}
+
+.javascript:hover {
+  color: blueviolet;
+}
+
+.see-project {
+  width: 124px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background: white;
+  color: #6d7bf8;
+}
+
+.see-project,
+button:enabled {
+  color: #6d7bf8;
+}
+
+button:active {
+  background: #6070ff;
+  color: white;
+  border: 100px;
+}
+
+.work_img2 {
+  background-image: url('src-image/SnapshootPortfolio1.png');
+  background-repeat: no-repeat;
+  width: 290px;
+}
+
+.work-n {
+  line-height: 23px;
+  font-size: 20px;
 }
