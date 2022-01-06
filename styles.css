@@ -1,0 +1,128 @@
+body {
+  position: relative;
+  width: 360px;
+  height: 640px;
+}
+
+/* Header tag properties */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.title_lo {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+/* logo color and decoration */
+
+.logo {
+  color: #6070ff;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: blueviolet;
+}
+
+.fas {
+  font-size: 20px;
+  margin-left: 200px;
+}
+
+.fas:hover {
+  color: #6070ff;
+}
+
+/* section */
+
+.content-name {
+  background-image: url('./src-image/header-shapes-mobile@2x.svg');
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.my_name {
+  width: 310px;
+  padding-left: 24px;
+  padding-top: 62px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.my_details {
+  width: 336px;
+  padding-left: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+
+  /* Inside Auto Layout */
+
+  margin: 12px 1px;
+}
+
+.more_det {
+  padding-left: 23px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin: 1px 8px;
+}
+
+.media_icon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 15px;
+  left: 1px;
+}
+
+.twitter {
+  left: 6.4%;
+  right: 88.27%;
+  top: 77.81%;
+  bottom: 18.88%;
+}
+
+.medium {
+  left: 27.47%;
+  right: 67.2%;
+  top: 78.15%;
+  bottom: 19.21%;
+}
+
+.github {
+  left: 38.13%;
+  right: 57.07%;
+  top: 77.81%;
+  bottom: 18.87%;
+}
+
+.vact {
+  left: 48%;
+  right: 48.22%;
+  top: 77.81%;
+  bottom: 18.87%;
+}
