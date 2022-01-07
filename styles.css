@@ -17,7 +17,7 @@ body {
 .title_lo {
   margin-top: 50px;
   margin-left: 50px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -62,7 +62,7 @@ body {
   width: 310px;
   padding-left: 24px;
   padding-top: 62px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -71,12 +71,12 @@ body {
 }
 
 .my_details {
-  width: 95%;
+  width: 97%;
   display: flex;
   height: 115px;
   flex-direction: column;
   text-align: left;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -91,7 +91,7 @@ body {
 
 .more_det {
   padding-left: 23px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -158,7 +158,7 @@ body {
 }
 
 .name-pro {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -186,7 +186,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 5px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -199,7 +199,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -208,7 +208,7 @@ body {
 }
 
 .year {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -217,7 +217,7 @@ body {
 }
 
 .detail-cls {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -334,7 +334,7 @@ button:active {
   height: 30px;
   padding-top: 65px;
   margin-left: 10px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -378,7 +378,7 @@ button:active {
 }
 
 .more_det1 {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -395,7 +395,7 @@ button:active {
 .border-lang {
   right: 103px;
   margin-left: -34px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -509,7 +509,7 @@ button:active {
 
 .border-frem {
   display: flex;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -522,7 +522,7 @@ button:active {
 .border-skill {
   display: flex;
   height: 80px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
