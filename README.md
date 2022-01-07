@@ -4,13 +4,13 @@
 
 ![screenshot](https://user-images.githubusercontent.com/77942746/148373306-0321ca6e-4c2f-4429-8e00-2198911fae96.png)
 
-(https://user-images.githubusercontent.com/77942746/148476473-fc69f6c9-066e-41e5-be52-7f538688aedb.png)
+![Screenshot](https://user-images.githubusercontent.com/77942746/148543176-679a7735-ee52-42dd-b80e-7a952e093253.png)
 
-(https://user-images.githubusercontent.com/77942746/148476557-5ef8ba42-f36e-4782-be98-2d04b2a447fc.png)
+![Screenshot](https://user-images.githubusercontent.com/77942746/148543310-b1137b3d-5bc2-40cb-9d0e-ae1f9aee6e93.png)
 
-(https://user-images.githubusercontent.com/77942746/148476605-2148befd-6e93-4cde-a363-69ac2561528e.png)
+![Screenshot](https://user-images.githubusercontent.com/77942746/148543385-fc623d9e-f153-4a7e-9339-e302651aab45.png)
 
-(https://user-images.githubusercontent.com/77942746/148476637-3ab66108-4577-438a-ae78-be2e706a895f.png)
+![Screenshot](https://user-images.githubusercontent.com/77942746/148543417-6bcb77f7-91ca-4f20-a37f-8796300092a7.png)
 
 Additional description about the project and its features.
 
