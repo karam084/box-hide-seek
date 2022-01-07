@@ -217,7 +217,6 @@ body {
 .canopy {
   display: flex;
   flex-direction: column;
-  margin-top: 5px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -228,9 +227,6 @@ body {
 }
 
 .dev {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
