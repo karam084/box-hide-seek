@@ -185,6 +185,7 @@ body {
 .canopy {
   display: flex;
   flex-direction: column;
+  margin-top: 5px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
