@@ -77,6 +77,10 @@ body {
   color: #344563;
 }
 
+.my-d {
+  margin-left: 20px;
+}
+
 .more_det {
   padding-left: 23px;
   font-family: 'Poppins', sans-serif;
@@ -512,7 +516,6 @@ button:active {
 .vector-2 {
   position: absolute;
   margin-left: 12em;
-  margin-top: 1em;
 }
 
 .vector-3 {
