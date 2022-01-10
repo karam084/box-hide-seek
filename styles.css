@@ -254,9 +254,10 @@ body {
 }
 
 .button-desc {
-  /*display: flex;
+  /* display: flex;
   justify-content: start;
-  grid-auto-flow: column;*/
+  grid-auto-flow: column; */
+  
   margin-left: -40px;
   list-style: none;
   float: left;
