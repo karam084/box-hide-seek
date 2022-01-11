@@ -591,9 +591,7 @@ button:active {
 
 form {
   margin: 0px auto;
-  width: 500px;
   padding: 1em;
-
   border: 1 solid #ccc;
 }
 
@@ -609,14 +607,13 @@ form li + li {
 
 label {
   display: inline-block;
-  width: 90px;
-  text-align: right;
+  text-align: left;
 }
 
 input,
 textarea {
   font: 1em sans-serif;
-  width: 300px;
+  width: 100%;
   box-sizing: border-box;
   border: 1px solid #999;
 }
@@ -645,4 +642,8 @@ input:invalid {
 
 input:valid {
   border: 2px solid black;
+}
+
+.form-cont > div {
+  text-align: center;
 }
