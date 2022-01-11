@@ -308,6 +308,14 @@ body {
   color: #6d7bf8;
 }
 
+button {
+  background-color: #fff;
+  border: 1px solid #7f8cff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #6070ff;
+}
+
 .see-project,
 button:enabled {
   color: #6d7bf8;
@@ -594,9 +602,6 @@ button:active {
   width: 100%;
 }
 
-form {
-  border: 1px solid #ccc;
-}
 
 ul {
   list-style: none;
@@ -624,22 +629,9 @@ textarea:focus {
   border-color: #000;
 }
 
-button {
-  background-color: #fff;
-  border: 1px solid #7f8cff;
-  box-sizing: border-box;
-  border-radius: 8px;
-  color: #6070ff;
-}
-
 button:hover {
   background: #6070ff;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
-  color: #fff;
-}
-
-button:active {
-  background: #2230d2;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   color: #fff;
 }
 
