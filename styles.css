@@ -595,7 +595,7 @@ button:active {
 }
 
 form {
-  border: 1 solid #ccc;
+  border: 1px solid #ccc;
 }
 
 ul {
@@ -614,47 +614,48 @@ textarea {
   box-sizing: border-box;
 }
 
-input:focus,
-textarea:focus {
-  border-color: #000;
-}
-
 textarea {
   vertical-align: top;
   height: 170px;
 }
 
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
 button {
   background-color: #fff;
-  border: 1px solid #7F8CFF;
+  border: 1px solid #7f8cff;
   box-sizing: border-box;
   border-radius: 8px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 button:hover {
-  background: #6070FF;
+  background: #6070ff;
   box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
   color: #fff;
 }
 
 button:active {
-  background: #2230D2;
+  background: #2230d2;
   color: #fff;
 }
 
 button:disabled {
-  color: #5E6C84;
+  color: #5e6c84;
 }
 
-input:invalid, textarea:invalid {
+input:invalid,
+textarea:invalid {
   border: 2px solid red;
 }
 
-input:valid, textarea:valid {
+input:valid,
+textarea:valid {
   border: 2px solid black;
 }
-
 
 .form-cont > div {
   text-align: center;
@@ -671,7 +672,7 @@ form > ul > li > * {
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .contact-me {
