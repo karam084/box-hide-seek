@@ -610,10 +610,8 @@ form li + li {
 
 input,
 textarea {
-  font: 1em sans-serif;
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid #999;
 }
 
 input:focus,
@@ -629,13 +627,14 @@ textarea {
 .button {
 }
 
-input:invalid {
-  border: 2px dashed red;
+input:invalid, textarea:invalid {
+  border: 2px solid red;
 }
 
-input:valid {
+input:valid, textarea:valid {
   border: 2px solid black;
 }
+
 
 .form-cont > div {
   text-align: center;
@@ -644,6 +643,15 @@ input:valid {
 form > ul > li > * {
   border-radius: 8px;
   border: 1px solid #cfd8dc;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172B4D;
 }
 
 .contact-me {
