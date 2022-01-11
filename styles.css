@@ -498,9 +498,6 @@ button:active {
   top: 90.72px;
   background-color: #f7f7f9;
   border-radius: 8px;
-
-  /* Inside Auto Layout */
-
   flex: none;
   order: 1;
   flex-grow: 1;
@@ -601,7 +598,6 @@ button:active {
   background-size: cover;
   width: 100%;
 }
-
 
 ul {
   list-style: none;
