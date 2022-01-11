@@ -587,7 +587,8 @@ button:active {
   justify-content: center;
   flex-direction: column;
   padding: 24px;
-  
+  background-image: url('./src-image/Contact-me.png');
+  margin-top: 100px;
 }
 
 form {
@@ -639,5 +640,14 @@ input:valid {
 
 form > ul > li > * {
   border-radius: 8px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
+}
+
+.contact-me {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
 }
