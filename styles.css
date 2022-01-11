@@ -586,12 +586,11 @@ button:active {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 24px;
   
 }
 
 form {
-  margin: 0px auto;
-  padding: 1em;
   border: 1 solid #ccc;
 }
 
@@ -603,11 +602,6 @@ ul {
 
 form li + li {
   margin-top: 1em;
-}
-
-label {
-  display: inline-block;
-  text-align: left;
 }
 
 input,
@@ -625,15 +619,10 @@ textarea:focus {
 
 textarea {
   vertical-align: top;
-  height: 5em;
+  height: 170px;
 }
 
 .button {
-  padding-left: 90px;
-}
-
-button {
-  margin-left: 0.5em;
 }
 
 input:invalid {
@@ -646,4 +635,9 @@ input:valid {
 
 .form-cont > div {
   text-align: center;
+}
+
+form > ul > li > * {
+  border-radius: 8px;
+  border: 1px solid #CFD8DC;
 }
