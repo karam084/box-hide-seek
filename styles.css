@@ -587,8 +587,11 @@ button:active {
   justify-content: center;
   flex-direction: column;
   padding: 24px;
-  background-image: url('./src-image/Contact-me.png');
+  background-image: url(./src-image/Figma.png);
+  background-repeat: no-repeat;
   margin-top: 100px;
+  background-size: cover;
+  width: 100%;
 }
 
 form {
@@ -650,4 +653,17 @@ form > ul > li > * {
   font-size: 40px;
   line-height: 52px;
   color: #fff;
+  margin-top: 100px;
+}
+
+.contact-desc {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
