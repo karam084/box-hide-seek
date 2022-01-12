@@ -106,7 +106,7 @@ body {
   flex-wrap: wrap;
   list-style: none;
   gap: 15px;
-  left: 1px;
+  margin-left: 40px;
 }
 
 .twitter {
@@ -210,7 +210,6 @@ body {
 .work-detail {
   display: flex;
   flex-direction: row;
-  margin-left: -32px;
   gap: 20px;
 }
 
@@ -257,7 +256,8 @@ body {
   display: flex;
   justify-content: start;
   grid-auto-flow: column;
-  margin-left: -40px;
+  margin-top: 13px;
+  margin-bottom: 69px;
   list-style: none;
 }
 
@@ -306,6 +306,14 @@ body {
   border-radius: 8px;
   background: white;
   color: #6d7bf8;
+}
+
+button {
+  background-color: #fff;
+  border: 1px solid #7f8cff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #6070ff;
 }
 
 .see-project,
@@ -385,7 +393,6 @@ button:active {
   grid-auto-flow: column;
   list-style: none;
   justify-content: start;
-  margin: 1px -30px;
 }
 
 .twitter2 {
@@ -425,7 +432,6 @@ button:active {
 
 .border-lang {
   right: 103px;
-  margin-left: -34px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -460,7 +466,6 @@ button:active {
   flex-direction: column;
   text-align: start;
   list-style: none;
-  margin-left: -43px;
 }
 
 .js-icon {
@@ -490,9 +495,6 @@ button:active {
   top: 90.72px;
   background-color: #f7f7f9;
   border-radius: 8px;
-
-  /* Inside Auto Layout */
-
   flex: none;
   order: 1;
   flex-grow: 1;
@@ -533,7 +535,6 @@ button:active {
   flex-direction: column;
   justify-content: center;
   gap: 15px;
-  margin-left: -33px;
   margin-top: 40px;
   list-style: none;
 }
@@ -580,4 +581,102 @@ button:active {
   display: inline-block;
   padding: 3px;
   transform: rotate(-45deg);
+}
+
+.form-cont {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px;
+  background-image: url(./src-image/Figma.png);
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  background-size: cover;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  vertical-align: top;
+  height: 170px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+button:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  color: #fff;
+}
+
+button:disabled {
+  color: #5e6c84;
+}
+
+input:invalid,
+textarea:invalid {
+  border: 2px solid red;
+}
+
+input:valid,
+textarea:valid {
+  border: 2px solid black;
+}
+
+.form-cont > div {
+  text-align: center;
+}
+
+form > ul > li > * {
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.contact-me {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.contact-desc {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
