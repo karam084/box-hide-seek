@@ -106,7 +106,7 @@ body {
   flex-wrap: wrap;
   list-style: none;
   gap: 15px;
-  left: 1px;
+  margin-left: 40px;
 }
 
 .twitter {
@@ -210,7 +210,6 @@ body {
 .work-detail {
   display: flex;
   flex-direction: row;
-  margin-left: -32px;
   gap: 20px;
 }
 
@@ -257,7 +256,8 @@ body {
   display: flex;
   justify-content: start;
   grid-auto-flow: column;
-  margin-left: -40px;
+  margin-top: 13px;
+  margin-bottom: 69px;
   list-style: none;
 }
 
@@ -393,7 +393,6 @@ button:active {
   grid-auto-flow: column;
   list-style: none;
   justify-content: start;
-  margin: 1px -30px;
 }
 
 .twitter2 {
@@ -433,7 +432,6 @@ button:active {
 
 .border-lang {
   right: 103px;
-  margin-left: -34px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -468,7 +466,6 @@ button:active {
   flex-direction: column;
   text-align: start;
   list-style: none;
-  margin-left: -43px;
 }
 
 .js-icon {
@@ -538,7 +535,6 @@ button:active {
   flex-direction: column;
   justify-content: center;
   gap: 15px;
-  margin-left: -33px;
   margin-top: 40px;
   list-style: none;
 }
