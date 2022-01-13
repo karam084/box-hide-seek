@@ -487,7 +487,7 @@ button:active {
   height: 66.72px;
   left: 12px;
   top: 12px;
-  background: #f7f7f9;
+  background-color: #f7f7f9;
   border-radius: 8px;
   flex: none;
   order: 1;
@@ -496,6 +496,7 @@ button:active {
   text-decoration: none;
   align-items: center;
   gap: 15px;
+  transition: background-color 1s;
 }
 
 .html-icon {
@@ -514,6 +515,7 @@ button:active {
   text-decoration: none;
   align-items: center;
   gap: 15px;
+  transition: background-color 1s;
 }
 
 .css-icon {
@@ -528,7 +530,7 @@ button:active {
 
   /* Neutrals/N10 */
 
-  background: #f7f7f9;
+  background-color: #f7f7f9;
   border-radius: 8px;
 
   /* Inside Auto Layout */
@@ -540,6 +542,7 @@ button:active {
   text-decoration: none;
   align-items: center;
   gap: 15px;
+  transition: background-color 1s;
 }
 
 .fr-work {
@@ -691,4 +694,13 @@ form > ul > li > * {
   color: #ebebff;
   margin-top: 20px;
   margin-bottom: 50px;
+  transition: font-size 1s;
+}
+
+.contact-desc:hover {
+  font-size: 18px;
+}
+
+.lang-img > li > a:hover {
+  background-color: #c2c2c3;
 }
