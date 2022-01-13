@@ -68,6 +68,7 @@ body {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+
 }
 
 .my_details {
@@ -83,7 +84,13 @@ body {
   line-height: 24px;
   color: #344563;
   margin-left: 10px;
+  transition: font-size 1s;
 }
+
+.my_details:hover{
+  font-size: 13px;
+
+} 
 
 .my-d {
   margin-left: 20px;
@@ -187,7 +194,12 @@ body {
   background-repeat: no-repeat;
   width: 351px;
   height: 216px;
+  transition: width 1s;
 }
+
+.work_img:hover{
+width: 300px;
+} 
 
 .name-pro {
   font-family: 'Poppins', sans-serif;
