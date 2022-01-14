@@ -59,7 +59,7 @@ body {
 }
 
 .my_name {
-  width: 310px;
+  width: 283px;
   padding-left: 24px;
   padding-top: 62px;
   font-family: 'Poppins', sans-serif;
@@ -703,6 +703,10 @@ form > ul > li > * {
   background-color: #c2c2c3;
 }
 
+.nav-title {
+  display: none;
+}
+
 @media screen and (min-device-width: 1000px) {
   body {
     position: relative;
@@ -712,10 +716,121 @@ form > ul > li > * {
   .header {
     display: flex;
     flex-direction: column;
-    text-align: start;
+    margin-top: 10px;
   }
 
   .title_lo {
     margin-top: 15px;
+  }
+
+  .logo {
+    margin-left: 120px;
+  }
+
+  .title_lo > .fas {
+    display: none;
+  }
+
+  .nav-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+    gap: 10px;
+    color: #344563;
+    margin-right: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1px;
+  }
+
+  .content-name {
+    background-image: url(./src-image/Header-bg.png);
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid #dfe1e6;
+    border-bottom-left-radius: 20px;
+    border-top: none;
+    border-right: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .my_name {
+    width: 920px;
+    margin-top: 200px;
+    padding: 0;
+    height: 78px;
+    margin-left: 354px;
+  }
+
+  .my_details {
+    width: 50%;
+    margin-left: 359px;
+    padding: 0;
+    height: 75px;
+  }
+
+  .more_det {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 61%;
+    height: 45px;
+  }
+
+  .media_icon {
+    flex-flow: row;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 15px;
+    margin-left: 357px;
+    height: 100px;
+  }
+
+  .works-cards {
+    display: grid;
+    grid-auto-columns: 85%;
+    grid-auto-flow: row;
+  }
+
+  .work-card {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+  }
+
+  .work_img {
+    background-image: url(./src-image/Snapshoot-Portfolio1.png);
+    width: 70%;
+    height: 90%;
+  }
+
+  .name-pro {
+    margin-left: 562px;
+    margin-top: -482px;
+  }
+
+  .work-detail {
+    margin-left: 567px;
+  }
+
+  .detail-cls {
+    margin-left: 567px;
+  }
+
+  .button-desc {
+    margin-left: 561px;
+  }
+
+  .see-project {
+    margin-left: 569px;
   }
 }
