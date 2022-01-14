@@ -702,3 +702,20 @@ form > ul > li > * {
 .lang-img > li > a:hover {
   background-color: #c2c2c3;
 }
+
+@media screen and (min-device-width: 1000px) {
+  body {
+    position: relative;
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+
+  .title_lo {
+    margin-top: 15px;
+  }
+}
