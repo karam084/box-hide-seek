@@ -1,4 +1,4 @@
-# Portfolio Mobile version
+# Portfolio DeskTop version
 
 > This is the personal Portfolio of Karam Fouad - Web Developer
 
