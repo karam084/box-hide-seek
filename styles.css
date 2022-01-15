@@ -707,6 +707,10 @@ form > ul > li > * {
   display: none;
 }
 
+.ruby {
+  display: none;
+}
+
 @media screen and (min-device-width: 1000px) {
   body {
     position: relative;
@@ -797,40 +801,308 @@ form > ul > li > * {
 
   .works-cards {
     display: grid;
-    grid-auto-columns: 85%;
+    grid-auto-columns: 86%;
     grid-auto-flow: row;
+    justify-content: flex-start;
+    width: 100%;
   }
 
   .work-card {
     display: flex;
     flex-flow: column;
     width: 100%;
+    justify-content: center;
   }
 
   .work_img {
     background-image: url(./src-image/Snapshoot-Portfolio1.png);
-    width: 70%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
   }
 
   .name-pro {
     margin-left: 562px;
-    margin-top: -482px;
+    position: absolute;
+    top: 22em;
   }
 
   .work-detail {
     margin-left: 567px;
+    position: absolute;
+    top: 49em;
   }
 
   .detail-cls {
     margin-left: 567px;
+    position: absolute;
+    top: 54em;
+    width: 31%;
   }
 
   .button-desc {
     margin-left: 561px;
+    position: absolute;
+    top: 55em;
   }
 
   .see-project {
     margin-left: 569px;
+    position: absolute;
+    top: 60em;
+  }
+
+  .work-card2 {
+    display: flex;
+    flex-flow: column;
+    width: 86%;
+    margin-left: 10%;
+    height: 77%;
+    justify-content: center;
+  }
+
+  .work_img2 {
+    background-image: url('./src-image/Snapshoot-Portfoli2.png');
+    background-repeat: no-repeat;
+    width: 57%;
+    height: 103%;
+    margin-left: 44%;
+  }
+
+  .name-pro1 {
+    margin-left: 0;
+    position: absolute;
+    top: 40px;
+  }
+
+  .det2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    top: 111px;
+    margin: 0;
+  }
+
+  .det-cls {
+    margin-left: 0;
+    position: absolute;
+    top: 149px;
+    width: 37%;
+  }
+
+  .but-dec {
+    margin-left: 0;
+    position: absolute;
+    width: 42%;
+    top: 246px;
+    gap: 10px;
+  }
+
+  .see-pro {
+    margin-left: 0;
+    position: absolute;
+    top: 315px;
+  }
+
+  .ruby {
+    display: flex;
+  }
+
+  .dev,
+  .year {
+    list-style: circle;
+  }
+
+  .work-card3 {
+    display: flex;
+    flex-flow: column;
+    width: 86%;
+    height: 77%;
+    justify-content: center;
+    margin-left: 10%;
+  }
+
+  .work_img3 {
+    background-image: url(.//src-image/Snapshoot-Portfoli3.png);
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 18px;
+  }
+
+  .name-pro3 {
+    position: absolute;
+    top: 43px;
+  }
+
+  .work-de3 {
+    margin-left: 567px;
+    position: absolute;
+    top: 116px;
+  }
+
+  .det-cl3 {
+    margin-left: 567px;
+    position: absolute;
+    top: 9em;
+    width: 31%;
+  }
+
+  .but-dec3 {
+    margin-left: 561px;
+    position: absolute;
+    top: 16em;
+  }
+
+  .see-pr3 {
+    margin-left: 569px;
+    position: absolute;
+    top: 20em;
+  }
+
+  .work-card4 {
+    position: static;
+    margin-top: 1456px;
+  }
+
+  .work_img4 {
+    background-image: url(./src-image/Snapshoot-Portfoli4.png);
+    background-repeat: no-repeat;
+    width: 57%;
+    height: 103%;
+    margin-left: 44%;
+  }
+
+  .name-pro2 {
+    margin-left: 0;
+    margin-top: 65em;
+  }
+
+  .work-de4 {
+    margin-left: 0;
+    position: absolute;
+    top: 178em;
+  }
+
+  .det-cls4 {
+    margin-left: 0;
+    top: 192em;
+    position: absolute;
+    width: 28%;
+  }
+
+  .butt-des4 {
+    margin-left: 0;
+    top: 186em;
+  }
+
+  .see-pr4 {
+    margin-left: 0;
+    top: 190em;
+  }
+
+  .about1 {
+    width: 100%;
+  }
+
+  .about-me {
+    position: absolute;
+    margin-left: 80px;
+  }
+
+  .my-det1 {
+    width: 50%;
+    position: absolute;
+    padding: 0;
+    top: 229em;
+    margin-left: 80px;
+  }
+
+  .more-de2 {
+    position: absolute;
+    left: 84px;
+    top: 239em;
+  }
+
+  .media_u {
+    position: absolute;
+    left: 100px;
+    top: 243em;
+  }
+
+  .flex-botu {
+    position: absolute;
+    margin-top: 28em;
+    left: 6em;
+  }
+
+  .border-lang {
+    margin-left: 20em;
+    margin-top: 108px;
+  }
+
+  .lang-img {
+    margin-left: 24em;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .js-icon {
+    width: 122px;
+    height: 120px;
+    align-items: baseline;
+  }
+
+  .html-icon {
+    width: 122px;
+    height: 120px;
+    align-items: baseline;
+  }
+
+  .css-icon {
+    width: 122px;
+    height: 120px;
+    align-items: baseline;
+  }
+
+  span {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 25px;
+  }
+
+  .img-ico {
+    margin-left: 27px;
+    margin-top: 10px;
+  }
+
+  .arrow-down {
+    margin-left: 167px;
+  }
+
+  .fr-work {
+    margin-top: 230px;
+    margin-left: 26em;
+  }
+
+  .arrow-right {
+    margin-left: 8em;
+  }
+
+  .form-cont > .contact-desc {
+    width: 50%;
+    text-align: center;
+    margin-left: 14em;
+  }
+
+  form > ul > li {
+    width: 50%;
+    margin-left: 20em;
+  }
+
+  .button {
+    margin-left: 35em;
   }
 }
