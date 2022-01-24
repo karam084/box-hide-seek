@@ -731,7 +731,7 @@ form > ul > li > * {
     margin-left: 120px;
   }
 
-  .title_lo > .fas {
+  a > .fas {
     display: none;
   }
 
