@@ -699,27 +699,6 @@ form > ul > li > * {
   font-size: 18px;
 }
 
-.lang-img > li > a:hover {
-  background-color: #c2c2c3;
-}
-
-.nav-title {
-  display: none;
-}
-
-.ruby {
-  display: none;
-}
-
-.mobile-menu-items {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 120px;
-  margin-left: 20px;
-  justify-content: space-between;
-}
-
 .mobile-menu-items a {
   display: flex;
   font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
@@ -741,9 +720,35 @@ form > ul > li > * {
   text-decoration: none;
 }
 
-.menu-overlay {
-  display: block;
+.mobile-menu-items a:visited {
+  color: white;
+}
+
+.lang-img > li > a:hover {
+  background-color: #c2c2c3;
+}
+
+.nav-title {
+  display: none;
+}
+
+.ruby {
+  display: none;
+}
+
+.mobile-menu-items {
+  display: flex;
+  flex-direction: column;
   position: absolute;
+  top: 120px;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+
+.menu-overlay {
+  position: fixed;
+  z-index: 200;
+  display: block;
   opacity: 0.9;
   height: 100%;
   width: 100%;
@@ -774,10 +779,6 @@ form > ul > li > * {
 
 .hide-hamburger {
   display: none !important;
-}
-
-.mobile-menu-items a:visited {
-  color: white;
 }
 
 .menu {
