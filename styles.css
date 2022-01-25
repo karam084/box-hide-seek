@@ -605,7 +605,7 @@ button:active {
   background-repeat: no-repeat;
   margin-top: 100px;
   background-size: cover;
-  width: 100%;
+  width: 90%;
 }
 
 ul {
@@ -709,6 +709,96 @@ form > ul > li > * {
 
 .ruby {
   display: none;
+}
+
+.mobile-menu-items {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 120px;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+
+.mobile-menu-items a {
+  display: flex;
+  font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: column;
+  align-items: flex-start;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 20px;
+  margin-bottom: 32px;
+}
+
+.menu a:hover {
+  color: blue;
+}
+
+.mobile-menu-items a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-overlay {
+  display: block;
+  position: absolute;
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(234, 100%, 69%);
+  transform: translateX(0);
+  transition: transform 0.35s ease-in-out;
+}
+
+.hide-menu {
+  top: 0.05px;
+  right: -443px;
+  display: none;
+}
+
+.menu-overlay .hide-menu {
+  transform: translateX(100%);
+}
+
+.menu-close {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  color: white;
+  font-size: 50px;
+  padding-right: 262px;
+  margin-top: 304px;
+}
+
+.hide-hamburger {
+  display: none !important;
+}
+
+.mobile-menu-items a:visited {
+  color: white;
+}
+
+.menu {
+  display: none;
+}
+
+.humb {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  position: absolute;
+  color: darkgray;
+  top: 51px;
+  right: 15px;
+}
+
+.cross-box {
+  position: absolute;
+  top: 47px;
+  font-size: 28px;
+  right: 15px;
 }
 
 @media screen and (min-device-width: 1000px) {
@@ -1091,6 +1181,10 @@ form > ul > li > * {
     margin-left: 8em;
   }
 
+  .form-cont {
+    width: 100%;
+  }
+
   .form-cont > .contact-desc {
     width: 50%;
     text-align: center;
@@ -1105,4 +1199,20 @@ form > ul > li > * {
   .button {
     margin-left: 35em;
   }
+
+  .hide-menu {
+    display: none;
+  }
+
+  .humb {
+    display: none;
+  }
+
+  .menu-overlay {
+    display: none;
+  }
+}
+
+.cont {
+  color: #172b4d;
 }

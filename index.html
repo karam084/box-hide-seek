@@ -32,14 +32,24 @@
   <header class="header">
     <nav class="title_lo">
       <a class="logo" href="#" target="_blank" rel="noopener noreferrer">My Logo</a>
-      <a href="#" target="_blank"rel="noopener noreferrer"><i class="fas fa-bars"></i></a>
-    </nav>
-     <ul class="nav-title">
+      <ul class="humb mobile-menu mobile-menu-toggle">
+        <li class="hum"><i class="fas fa-bars"></i></li>
+      </ul>    </nav>
+     <ul class="nav-title" id="menu">
             <li class="title1">Portoflio</li>
             <li class="title2">About</li>
             <li class="title3">Contact</li>
           </ul>
-        </nav>
+          <div class="menu-overlay hide-menu">
+            <ul class="mobile-menu-toggle menu-close">
+              <li><i class="cross-box fas fa-times"></i></li>
+            </ul>
+            <ul class="mobile-menu-items mobile-menu-toggle">
+              <li><a href="#portfolio" rel="noreferrer noopener">Portfolio</a></li>
+              <li><a href="#about" rel="noreferrer noopener">About</a></li>
+              <li><a href="#contact" rel="noreferrer noopener">Contact</a></li>
+            </ul>
+          </div>
   </header>
   <section class="content-name">
     <h1 class="my_name">
@@ -260,5 +270,6 @@
         </li>
     </form>
   </section>
+  <script src="mobile-menu.js"></script>
 </body>
 </html>
