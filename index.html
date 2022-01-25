@@ -32,14 +32,24 @@
   <header class="header">
     <nav class="title_lo">
       <a class="logo" href="#" target="_blank" rel="noopener noreferrer">My Logo</a>
-      <i class="fas fa-bars"></i>
-    </nav>
-     <ul class="nav-title">
+      <ul class="humb mobile-menu mobile-menu-toggle">
+        <li class="hum"><i class="fas fa-bars"></i></li>
+      </ul>    </nav>
+     <ul class="nav-title" id="menu">
             <li class="title1">Portoflio</li>
             <li class="title2">About</li>
             <li class="title3">Contact</li>
           </ul>
-        </nav>
+          <div class="menu-overlay hide-menu">
+            <ul class="mobile-menu-toggle menu-close">
+              <li><i class="cross-box fas fa-times"></i></li>
+            </ul>
+            <ul class="mobile-menu-items mobile-menu-toggle">
+              <li><a href="#portfolio" rel="noreferrer noopener">Portfolio</a></li>
+              <li><a href="#about" rel="noreferrer noopener">About</a></li>
+              <li><a href="#contact" rel="noreferrer noopener">Contact</a></li>
+            </ul>
+          </div>
   </header>
   <section class="content-name">
     <h1 class="my_name">
@@ -73,7 +83,7 @@
       </li>
     </ul>
   </section>
-  <section class="works-cards">
+  <section id="portfolio" class="works-cards">
     <section class="work-card">
       <div class="work_img"></div>
       <div class="name-pro">
@@ -171,7 +181,7 @@
       <button class="see-project see-pr4">See Project</button>
     </section>
   </section>
-  <section class="about about1">
+  <section id="about" class="about about1">
     <h3 class="about-me">
       About<br />
       Myself
@@ -230,7 +240,7 @@
       </ul>
       <ul class="fr-work">
         <li class="border-frem">
-          Frameworks<a margin-left: 10px;href="#" rel="noopener noreferrer" class="vector-2"><i
+          Frameworks<a href="#" rel="noopener noreferrer" class="vector-2"><i
               class="arrow-right"></i></a>
         </li>
         <li class="border-skill">
@@ -239,7 +249,7 @@
       </ul>
     </div>
   </section>
-  <section class="form-cont">
+  <section id="contact" class="form-cont">
     <div class="contact-me">Contact Me</div>
     <div class="contact-desc">
       If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it 
@@ -260,5 +270,6 @@
         </li>
     </form>
   </section>
+  <script src="mobile-menu.js"></script>
 </body>
 </html>
