@@ -92,7 +92,7 @@ seeProjectButton.forEach((element) => {
     popup.style.display = 'block';
 
     const projectDetails = getProjectDetails(element.id);
-    document.getElementById('popup-project-title').innerHTML =      projectDetails.name;
+    document.getElementById('popup-project-title').innerHTML = projectDetails.name;
     let details = '';
 
     Object.keys(projectDetails.details).forEach((key) => {
