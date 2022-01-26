@@ -20,6 +20,26 @@ const getProjectDetails = (project) => {
       source: 'https://github.com/',
     },
 
+    Stories: {
+      name: 'Multi purpose stories',
+      details: ['Facebook', 'Backend', '2021'],
+      description:
+        'Lorem Ipsum is simply dummy text of the printing and typesetting' +
+        "industry. Lorem Ipsum has been the industry's standard dummy text" +
+        'ever since the 1500s, when an unknown printer took a galley of type' +
+        'and scrambled it 1960s with the releaLorem Ipsum is simply dummy' +
+        'text of the printing and typesetting industry. Lorem Ipsum has been' +
+        "the industry's standard dummy text ever since the 1500s, when an" +
+        'unknown printer took a galley of type and scrambled it 1960s with' +
+        'the releorem Ipsum is simply dummy text of the printing and' +
+        'typesetting industry. Lorem Ipsum han printer took a galley of type',
+      image:
+        '<img src="../src-image/SnapshootPortfolio1.png" alt="Tonic project screenshot" class="popup-project-image" id="popup-project-image">',
+      technologies: ['HTML', 'Javascript', 'CSS'],
+      live_server: 'https://github.com/',
+      source: 'https://github.com/',
+    },
+
     360: {
       name: 'Facebook 360',
       details: ['Facebook', 'Fullstack dev', '2015'],
@@ -34,7 +54,7 @@ const getProjectDetails = (project) => {
         'the releorem Ipsum is simply dummy text of the printing and' +
         'typesetting industry. Lorem Ipsum han printer took a galley of type',
       image:
-        '<img src="../" alt="Tonic project screenshot" class="popup-project-image" id="popup-project-image">',
+        '<img src="../src-image/Snapshoot-Portfolio2.png" alt="Tonic project screenshot" class="popup-project-image" id="popup-project-image">',
       technologies: ['HTML', 'Javascript', 'CSS'],
       live_server: 'https://github.com/',
       source: 'https://github.com/',
@@ -54,27 +74,7 @@ const getProjectDetails = (project) => {
         'the releorem Ipsum is simply dummy text of the printing and' +
         'typesetting industry. Lorem Ipsum han printer took a galley of type',
       image:
-        '<img src="./src-image/Snapshoot-portfolio3.png" alt="Tonic project screenshot" class="popup-project-image" id="popup-project-image">',
-      technologies: ['HTML', 'Javascript', 'CSS'],
-      live_server: 'https://github.com/',
-      source: 'https://github.com/',
-    },
-
-    Stories: {
-      name: 'Multi purpose stories',
-      details: ['Facebook', 'Backend', '2021'],
-      description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting' +
-        "industry. Lorem Ipsum has been the industry's standard dummy text" +
-        'ever since the 1500s, when an unknown printer took a galley of type' +
-        'and scrambled it 1960s with the releaLorem Ipsum is simply dummy' +
-        'text of the printing and typesetting industry. Lorem Ipsum has been' +
-        "the industry's standard dummy text ever since the 1500s, when an" +
-        'unknown printer took a galley of type and scrambled it 1960s with' +
-        'the releorem Ipsum is simply dummy text of the printing and' +
-        'typesetting industry. Lorem Ipsum han printer took a galley of type',
-      image:
-        '<img src="./src-image/Snapshoot-Portfolio1.png" alt="Tonic project screenshot" class="popup-project-image" id="popup-project-image">',
+        '<img src="../src-image/imag-3.png" alt="Tonic project screenshot" class="popup-project-image" id="popup-project-image">',
       technologies: ['HTML', 'Javascript', 'CSS'],
       live_server: 'https://github.com/',
       source: 'https://github.com/',
@@ -97,8 +97,8 @@ seeProjectButton.forEach((element) => {
     let details = '';
 
     Object.keys(projectDetails.details).forEach((key) => {
-      details += `<span class="client-name">${projectDetails.details[key]}</span> `;
       details += ' <i class="fas fa-circle divider"></i> ';
+      details += `<span class="client-name">${projectDetails.details[key]}</span> `;
     });
 
     document.getElementById('popup-project-info').innerHTML = details;
