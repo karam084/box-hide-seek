@@ -4,15 +4,15 @@ const getProjectDetails = (project) => {
       name: 'Tonic',
       details: ['CANOPY', 'Backend', '2015', 'Dev'],
       description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting' +
-        "industry. Lorem Ipsum has been the industry's standard dummy text" +
-        'ever since the 1500s, when an unknown printer took a galley of type' +
-        'and scrambled it 1960s with the releaLorem Ipsum is simply dummy' +
-        'text of the printing and typesetting industry. Lorem Ipsum has been' +
-        "the industry's standard dummy text ever since the 1500s, when an" +
-        'unknown printer took a galley of type and scrambled it 1960s with' +
-        'the releorem Ipsum is simply dummy text of the printing and' +
-        'typesetting industry. Lorem Ipsum han printer took a galley of type',
+        'Lorem Ipsum is simply dummy text of the printing and typesetting'
+        + "industry. Lorem Ipsum has been the industry's standard dummy text"
+        + 'ever since the 1500s, when an unknown printer took a galley of type'
+        + 'and scrambled it 1960s with the releaLorem Ipsum is simply dummy'
+        + 'text of the printing and typesetting industry. Lorem Ipsum has been'
+        + "the industry's standard dummy text ever since the 1500s, when an"
+        + 'unknown printer took a galley of type and scrambled it 1960s with'
+        + 'the releorem Ipsum is simply dummy text of the printing and'
+        + 'typesetting industry. Lorem Ipsum han printer took a galley of type',
       image:
         '<img src="../src-image/Snapshoot-Portfolio.png" alt="Tonic project screenshot" class="popup-project-image" id="popup-project-image">',
       technologies: ['HTML', 'Javascript', 'CSS'],
@@ -24,15 +24,15 @@ const getProjectDetails = (project) => {
       name: 'Multi purpose stories',
       details: ['Facebook', 'Backend', '2021'],
       description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting' +
-        "industry. Lorem Ipsum has been the industry's standard dummy text" +
-        'ever since the 1500s, when an unknown printer took a galley of type' +
-        'and scrambled it 1960s with the releaLorem Ipsum is simply dummy' +
-        'text of the printing and typesetting industry. Lorem Ipsum has been' +
-        "the industry's standard dummy text ever since the 1500s, when an" +
-        'unknown printer took a galley of type and scrambled it 1960s with' +
-        'the releorem Ipsum is simply dummy text of the printing and' +
-        'typesetting industry. Lorem Ipsum han printer took a galley of type',
+        'Lorem Ipsum is simply dummy text of the printing and typesetting'
+        + "industry. Lorem Ipsum has been the industry's standard dummy text"
+        + 'ever since the 1500s, when an unknown printer took a galley of type'
+        + 'and scrambled it 1960s with the releaLorem Ipsum is simply dummy'
+        + 'text of the printing and typesetting industry. Lorem Ipsum has been'
+        + "the industry's standard dummy text ever since the 1500s, when an"
+        + 'unknown printer took a galley of type and scrambled it 1960s with'
+        + 'the releorem Ipsum is simply dummy text of the printing and'
+        + 'typesetting industry. Lorem Ipsum han printer took a galley of type',
       image:
         '<img src="../src-image/SnapshootPortfolio1.png" alt="Tonic project screenshot" class="popup-project-image" id="popup-project-image">',
       technologies: ['HTML', 'Javascript', 'CSS'],
@@ -44,15 +44,15 @@ const getProjectDetails = (project) => {
       name: 'Facebook 360',
       details: ['Facebook', 'Fullstack dev', '2015'],
       description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting' +
-        "industry. Lorem Ipsum has been the industry's standard dummy text" +
-        'ever since the 1500s, when an unknown printer took a galley of type' +
-        'and scrambled it 1960s with the releaLorem Ipsum is simply dummy' +
-        'text of the printing and typesetting industry. Lorem Ipsum has been' +
-        "the industry's standard dummy text ever since the 1500s, when an" +
-        'unknown printer took a galley of type and scrambled it 1960s with' +
-        'the releorem Ipsum is simply dummy text of the printing and' +
-        'typesetting industry. Lorem Ipsum han printer took a galley of type',
+        'Lorem Ipsum is simply dummy text of the printing and typesetting'
+        + "industry. Lorem Ipsum has been the industry's standard dummy text"
+        + 'ever since the 1500s, when an unknown printer took a galley of type'
+        + 'and scrambled it 1960s with the releaLorem Ipsum is simply dummy'
+        + 'text of the printing and typesetting industry. Lorem Ipsum has been'
+        + "the industry's standard dummy text ever since the 1500s, when an"
+        + 'unknown printer took a galley of type and scrambled it 1960s with'
+        + 'the releorem Ipsum is simply dummy text of the printing and'
+        + 'typesetting industry. Lorem Ipsum han printer took a galley of type',
       image:
         '<img src="../src-image/Snapshoot-Portfolio2.png" alt="Tonic project screenshot" class="popup-project-image" id="popup-project-image">',
       technologies: ['HTML', 'Javascript', 'CSS'],
@@ -64,15 +64,15 @@ const getProjectDetails = (project) => {
       name: 'Uber Navigation',
       details: ['Uber', 'Lead Developer', '2018'],
       description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting' +
-        "industry. Lorem Ipsum has been the industry's standard dummy text" +
-        'ever since the 1500s, when an unknown printer took a galley of type' +
-        'and scrambled it 1960s with the releaLorem Ipsum is simply dummy' +
-        'text of the printing and typesetting industry. Lorem Ipsum has been' +
-        "the industry's standard dummy text ever since the 1500s, when an" +
-        'unknown printer took a galley of type and scrambled it 1960s with' +
-        'the releorem Ipsum is simply dummy text of the printing and' +
-        'typesetting industry. Lorem Ipsum han printer took a galley of type',
+        'Lorem Ipsum is simply dummy text of the printing and typesetting'
+        + "industry. Lorem Ipsum has been the industry's standard dummy text"
+        + 'ever since the 1500s, when an unknown printer took a galley of type'
+        + 'and scrambled it 1960s with the releaLorem Ipsum is simply dummy'
+        + 'text of the printing and typesetting industry. Lorem Ipsum has been'
+        + "the industry's standard dummy text ever since the 1500s, when an"
+        + 'unknown printer took a galley of type and scrambled it 1960s with'
+        + 'the releorem Ipsum is simply dummy text of the printing and'
+        + 'typesetting industry. Lorem Ipsum han printer took a galley of type',
       image:
         '<img src="../src-image/imag-3.png" alt="Tonic project screenshot" class="popup-project-image" id="popup-project-image">',
       technologies: ['HTML', 'Javascript', 'CSS'],
@@ -92,8 +92,7 @@ seeProjectButton.forEach((element) => {
     popup.style.display = 'block';
 
     const projectDetails = getProjectDetails(element.id);
-    document.getElementById('popup-project-title').innerHTML =
-      projectDetails.name;
+    document.getElementById('popup-project-title').innerHTML =      projectDetails.name;
     let details = '';
 
     Object.keys(projectDetails.details).forEach((key) => {
@@ -102,18 +101,15 @@ seeProjectButton.forEach((element) => {
     });
 
     document.getElementById('popup-project-info').innerHTML = details;
-    document.getElementById('popup-project-image-holder').innerHTML =
-      projectDetails.image;
-    document.getElementById('popup-project-description').innerHTML =
-      projectDetails.description;
+    document.getElementById('popup-project-image-holder').innerHTML = projectDetails.image;
+    document.getElementById('popup-project-description').innerHTML = projectDetails.description;
 
     let popupProjectStack = '';
     Object.keys(projectDetails.technologies).forEach((key) => {
       popupProjectStack += `<span class="label">${projectDetails.technologies[key]}</span>`;
     });
 
-    document.getElementById('popup-project-stack').innerHTML =
-      popupProjectStack;
+    document.getElementById('popup-project-stack').innerHTML = popupProjectStack;
     document.getElementById('see-live-btn').addEventListener('click', () => {
       window.location.href = projectDetails.live_server;
     });
