@@ -1213,3 +1213,29 @@ form > ul > li > * {
     display: none;
   }
 }
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  height: auto;
+  padding: 16px;
+  border-radius: 16px;
+  margin-left: 14%;
+  width: 70%;
+  }
+  
+  .popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  }
+  
+  .close {
+  margin-right: 10px;
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  } 
