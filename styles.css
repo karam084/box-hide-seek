@@ -699,27 +699,6 @@ form > ul > li > * {
   font-size: 18px;
 }
 
-.lang-img > li > a:hover {
-  background-color: #c2c2c3;
-}
-
-.nav-title {
-  display: none;
-}
-
-.ruby {
-  display: none;
-}
-
-.mobile-menu-items {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 120px;
-  margin-left: 20px;
-  justify-content: space-between;
-}
-
 .mobile-menu-items a {
   display: flex;
   font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
@@ -741,12 +720,38 @@ form > ul > li > * {
   text-decoration: none;
 }
 
-.menu-overlay {
-  display: block;
+.mobile-menu-items a:visited {
+  color: white;
+}
+
+.lang-img > li > a:hover {
+  background-color: #c2c2c3;
+}
+
+.nav-title {
+  display: none;
+}
+
+.ruby {
+  display: none;
+}
+
+.mobile-menu-items {
+  display: flex;
+  flex-direction: column;
   position: absolute;
+  top: 120px;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+
+.menu-overlay {
+  position: fixed;
+  z-index: 200;
+  display: block;
   opacity: 0.9;
   height: 100%;
-  width: 100%;
+  width: 76%;
   background-color: hsl(234, 100%, 69%);
   transform: translateX(0);
   transition: transform 0.35s ease-in-out;
@@ -776,10 +781,6 @@ form > ul > li > * {
   display: none !important;
 }
 
-.mobile-menu-items a:visited {
-  color: white;
-}
-
 .menu {
   display: none;
 }
@@ -798,7 +799,7 @@ form > ul > li > * {
   position: absolute;
   top: 47px;
   font-size: 28px;
-  right: 15px;
+  right: 24px;
 }
 
 @media screen and (min-device-width: 1000px) {
@@ -1211,8 +1212,4 @@ form > ul > li > * {
   .menu-overlay {
     display: none;
   }
-}
-
-.cont {
-  color: #172b4d;
 }
