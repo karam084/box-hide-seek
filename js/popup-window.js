@@ -16,8 +16,8 @@ const getProjectDetails = (project) => {
       image:
         '<img src="../src-image/Snapshoot-Portfolio.png" alt="Tonic project screenshot" class="popup-project-image" id="popup-project-image">',
       technologies: ['HTML', 'Javascript', 'CSS'],
-      live_server: 'https://github.com/',
-      source: 'https://github.com/',
+      live_server: 'https://karam084.github.io/mobile-version/',
+      source: 'https://github.com/karam084/mobile-version',
     },
 
     Stories: {
@@ -36,8 +36,8 @@ const getProjectDetails = (project) => {
       image:
         '<img src="../src-image/SnapshootPortfolio1.png" alt="Tonic project screenshot" class="popup-project-image" id="popup-project-image">',
       technologies: ['HTML', 'Javascript', 'CSS'],
-      live_server: 'https://github.com/',
-      source: 'https://github.com/',
+      live_server: 'https://karam084.github.io/mobile-version/',
+      source: 'https://github.com/karam084/mobile-version',
     },
 
     360: {
@@ -56,8 +56,8 @@ const getProjectDetails = (project) => {
       image:
         '<img src="../src-image/Snapshoot-Portfolio2.png" alt="Tonic project screenshot" class="popup-project-image" id="popup-project-image">',
       technologies: ['HTML', 'Javascript', 'CSS'],
-      live_server: 'https://github.com/',
-      source: 'https://github.com/',
+      live_server: 'https://karam084.github.io/mobile-version/',
+      source: 'https://github.com/karam084/mobile-version',
     },
 
     Uber: {
@@ -76,8 +76,8 @@ const getProjectDetails = (project) => {
       image:
         '<img src="../src-image/imag-3.png" alt="Tonic project screenshot" class="popup-project-image" id="popup-project-image">',
       technologies: ['HTML', 'Javascript', 'CSS'],
-      live_server: 'https://github.com/',
-      source: 'https://github.com/',
+      live_server: 'https://karam084.github.io/mobile-version/',
+      source: 'https://github.com/karam084/mobile-version',
     },
   };
 
