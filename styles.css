@@ -909,7 +909,7 @@ form > ul > li > * {
   width: 297px;
   height: 50px;
   gap: 20px;
-  padding-top:30px
+  padding-top: 30px;
 }
 
 #popup-project-title {
@@ -1409,15 +1409,15 @@ form > ul > li > * {
   }
 
   .popup-window {
-       flex-direction: column;
-       justify-content: center;
-       position: fixed;
-       z-index: 1;
-       padding-top: 30px;
-       left: 20%;
-       top: 0;
-       overflow: scroll;
-       background-color: rgba(0, 0, 0, 0.4);
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    padding-top: 30px;
+    left: 20%;
+    top: 0;
+    overflow: scroll;
+    background-color: rgba(0, 0, 0, 0.4);
   }
 
   #popup-project-title {
@@ -1511,14 +1511,14 @@ form > ul > li > * {
   }
 
   .column-left {
-        font-family: 'PoppinsLight', Tahoma, Geneva, Verdana, sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        color: #344563;
-        padding-left: 25px;
-        padding-right: 30px;
-        padding-bottom: 10px;
-        line-height: 24px;
+    font-family: 'PoppinsLight', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #344563;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    line-height: 24px;
   }
 
   .popup-project-stack {
@@ -1536,7 +1536,7 @@ form > ul > li > * {
     gap: 20px;
   }
 
-  .column-right{
+  .column-right {
     width: 57%;
     margin-top: 32px;
   }
