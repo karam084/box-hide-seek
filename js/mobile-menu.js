@@ -5,7 +5,7 @@ closeMenu.forEach((element) => {
     const overlay = document.querySelector('.menu-overlay');
     overlay.classList.toggle('hide-menu');
 
-    const hamburgerMenu = document.querySelector('.mobile-menu');
+    const hamburgerMenu = document.querySelector('button > .mobile-menu');
     hamburgerMenu.classList.toggle('hide-hamburger');
   });
 });

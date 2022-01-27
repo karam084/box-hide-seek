@@ -106,7 +106,7 @@
         <li class="css">css</li>
         <li class="javascript">javaScript</li>
       </ul>
-      <button class="see-project">See Project</button>
+      <button class="see-project" id="Tonic">See Project</button>
     </section>
     <section class="work-card work-card2">
       <div class="name-pro name-pro1">
@@ -132,9 +132,9 @@
         <li class="css">css</li>
         <li class="javascript">javaScript</li>
       </ul>
-      <button class="see-project see-pro">See Project</button>
+      <button class="see-project see-pro" id="Stories">See Project</button>
     </section>
-    <section class="work-card work-card3">
+    <section class="work-card work-card3"> 
       <div class="work_img3"></div>
       <div class="name-pro name-pro3">
         <h3 class="work_name">Facebook 360</h3>
@@ -154,7 +154,7 @@
         <li class="css">css</li>
         <li class="javascript">javaScript</li>
       </ul>
-      <button class="see-project see-pr3">See Project</button>
+      <button class="see-project see-pr3" id="360">See Project</button>
     </section>
     <section class="work-card work-card4">
       <div class="work_img4"></div>
@@ -178,7 +178,7 @@
         <li class="css">css</li>
         <li class="javascript">javaScript</li>
       </ul>
-      <button class="see-project see-pr4">See Project</button>
+      <button class="see-project see-pr4" id="Uber">See Project</button>
     </section>
   </section>
   <section id="about" class="about about1">
@@ -270,6 +270,43 @@
         </li>
     </form>
   </section>
-  <script src="mobile-menu.js"></script>
+  <div class="popup-window" id="popup">
+    <section class="popup">
+      <div class="popup-header">
+        <h2 class="popup-project-title" id="popup-project-title"></h2>
+        <span class="close">&times;</span>
+      </div>
+      <div class="popup-project-info" id="popup-project-info"></div>
+      <div id="popup-project-image-holder">
+        <img
+          src="#"
+          alt="Tonic project screenshot"
+          class="popup-project-image"
+          id="popup-project-image"
+        />
+      </div>
+      <div class="popup-project-details">
+        <div class="column-left">
+          <p
+            class="popup-project-description"
+            id="popup-project-description"
+          ></p>
+        </div>
+        <div class="column-right">
+          <div class="popup-project-stack" id="popup-project-stack"></div>
+          <div class="popup-project-buttons">
+            <button type="button" id="see-live-btn" onclick="">
+              See Live<img src="./media-icons/Icon.png" alt="media icon"class="media-pop">
+            </button>
+            <button type="button" id="see-source-btn" onclick="">
+              See Source<img src="./media-icons/Vector-pop.png" alt="media icon"class="media-pop">
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+  <script src="./js/mobile-menu.js"></script>
+  <script src="./js/popup-window.js"></script>
 </body>
 </html>
