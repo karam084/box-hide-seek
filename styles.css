@@ -821,7 +821,6 @@ form > ul > li > * {
   height: auto;
   padding: 16px;
   border-radius: 16px;
-  width: 70%;
 }
 
 .popup-header {
@@ -856,10 +855,8 @@ form > ul > li > * {
   justify-content: center;
   position: fixed;
   z-index: 1;
-  padding-top: 30px;
-  left: 0;
+  padding-top: 7px;
   top: 0;
-  width: 91%;
   height: 100%;
   overflow: scroll;
   background-color: rgba(0, 0, 0, 0.4);
@@ -899,6 +896,9 @@ form > ul > li > * {
   justify-content: flex-start;
   align-items: baseline;
   gap: 10px;
+  position: absolute;
+  top: 578px;
+  left: 24px;
 }
 
 .popup-project-buttons {
@@ -909,6 +909,7 @@ form > ul > li > * {
   width: 297px;
   height: 50px;
   gap: 20px;
+  padding-top:30px
 }
 
 #popup-project-title {
@@ -931,19 +932,17 @@ form > ul > li > * {
 
 .popup-project-description {
   width: 311px;
-  height: 311px;
   left: 0;
   top: 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 16px;
   color: #344563;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0;
 }
 
 .label {
@@ -1410,18 +1409,15 @@ form > ul > li > * {
   }
 
   .popup-window {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    position: fixed;
-    z-index: 1;
-    padding-top: 30px;
-    left: 0;
-    top: 0;
-    width: 91%;
-    height: 100%;
-    overflow: scroll;
-    background-color: rgba(0, 0, 0, 0.4);
+       flex-direction: column;
+       justify-content: center;
+       position: fixed;
+       z-index: 1;
+       padding-top: 30px;
+       left: 20%;
+       top: 0;
+       overflow: scroll;
+       background-color: rgba(0, 0, 0, 0.4);
   }
 
   #popup-project-title {
@@ -1499,7 +1495,6 @@ form > ul > li > * {
     border: 1px solid #dfe1e6;
     height: auto;
     padding: 16px;
-    width: 70%;
     border-radius: 16px;
   }
 
@@ -1516,15 +1511,14 @@ form > ul > li > * {
   }
 
   .column-left {
-    width: 70%;
-    font-family: 'PoppinsLight', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #344563;
-    padding-left: 25px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    line-height: 24px;
+        font-family: 'PoppinsLight', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #344563;
+        padding-left: 25px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        line-height: 24px;
   }
 
   .popup-project-stack {
@@ -1533,11 +1527,17 @@ form > ul > li > * {
     justify-content: flex-start;
     align-items: baseline;
     gap: 10px;
-    margin-top: 38px;
+    margin-top: 64px;
+    margin-left: 360px;
   }
 
   .popup-project-buttons {
     display: flex;
     gap: 20px;
+  }
+
+  .column-right{
+    width: 57%;
+    margin-top: 32px;
   }
 }
