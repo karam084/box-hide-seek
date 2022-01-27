@@ -1540,4 +1540,14 @@ form > ul > li > * {
     width: 57%;
     margin-top: 32px;
   }
+
+  /* This is our style for the invalid fields */
+  input:invalid {
+    border-color: #900;
+    background-color: #fdd;
+  }
+
+  input:focus:invalid {
+    outline: none;
+  }
 }
