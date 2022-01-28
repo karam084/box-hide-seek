@@ -254,16 +254,19 @@
     <div class="contact-desc">
       If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it 
     </div>
-    <form action="https://formspree.io/f/xbjwdrzl" method="post">
-      <ul class="contact-form">
+    <form novalidate action="https://formspree.io/f/xbjwdrzl" method="post" id="form-con">
+      <ul class="contact-form" id="contact-form">
         <li>
-          <input type="text" id="name" name="user_name" maxlength="30" placeholder="Username" required>
+          <input type="text" class="invalid" id="name" name="user_name" maxlength="30" placeholder="Username" required maxlength="30">
+          <span class="error-hint hidden">Name is required</span>
         </li>
         <li>
-          <input type="email" id="email" name="user_email" placeholder="abc@gmail.com" required>
+          <input type="email" class="invalid" id="email" name="user_email" placeholder="abc@gmail.com" required>
+          <span class="error-hint hidden">Email is required "Accept only small letters "</span>
         </li>
         <li>
-          <textarea id="msg" name="user_message" maxlength="500" type="text" placeholder="Write Your Message..." required></textarea>
+          <textarea class="invalid" id="msg" name="user_message" maxlength="500" type="text" placeholder="Write Your Message not more than 500 character" rows="5" required></textarea>
+          <span class="error-hint hidden">Message is required</span>
         </li>
         <li class="button">
           <button type="submit">Get It Touch</button>
@@ -308,5 +311,6 @@
     </div>
   <script src="./js/mobile-menu.js"></script>
   <script src="./js/popup-window.js"></script>
+  <script src="./js/validate.js"></script>
 </body>
 </html>

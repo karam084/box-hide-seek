@@ -812,6 +812,7 @@ form > ul > li > * {
 }
 
 /* Mobile version style */
+
 .popup {
   display: flex;
   flex-direction: column;
@@ -975,6 +976,35 @@ form > ul > li > * {
   font-size: 13px;
   line-height: 16px;
   color: #344563;
+}
+
+input:invalid {
+  border-color: #900;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+/* This is the style of our error messages */
+
+.error-hint {
+  width: 100%;
+  padding: 0;
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.error-hint.active {
+  padding: 0.3em;
+}
+
+.hidden {
+  display: none;
 }
 
 @media screen and (min-device-width: 1000px) {
