@@ -1003,7 +1003,6 @@ input:focus:invalid {
 }
 
 @media screen and (min-device-width: 1000px) {
-
   body {
     position: relative;
     width: 100%;
@@ -1566,5 +1565,4 @@ input:focus:invalid {
     width: 57%;
     margin-top: 32px;
   }
-  
 }
