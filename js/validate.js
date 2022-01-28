@@ -49,7 +49,7 @@ const validInput = () => {
   }
 };
 
-form.addEventListener('submit', (e) => {
+form.addEventListener('submit', () => {
   e.preventDefault();
   isvalid = true;
   formValid = true;
