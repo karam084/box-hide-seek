@@ -981,10 +981,13 @@ form > ul > li > * {
 input:invalid {
   border-color: #900;
 }
+
 input:focus:invalid {
   outline: none;
 }
+
 /* This is the style of our error messages */
+
 .error-hint {
   width: 100%;
   padding: 0;
@@ -995,9 +998,11 @@ input:focus:invalid {
   box-sizing: border-box;
   margin-top: 5px;
 }
+
 .error-hint.active {
   padding: 0.3em;
 }
+
 .hidden {
   display: none;
 }
