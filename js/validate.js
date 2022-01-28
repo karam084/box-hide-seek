@@ -24,7 +24,14 @@ const resetData = (element) => {
 const invalidElement = (element) => {
   element.classList.add('invalid');
   element.nextElementSibling.classList.remove('hidden');
-};
+};submit.onclick = function(){
+  const key = nameInput.value;
+  const value = emailInput.value;
+  if(key && value){
+      localStorage.setItem(key, value);
+      location.reload();
+  }
+  };
 
 const validInput = () => {
   if (!isvalid) return;
@@ -61,3 +68,4 @@ inputs.forEach('input', () => {
     validInput();
   });
 });
+
