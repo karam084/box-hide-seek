@@ -261,11 +261,12 @@
           <span class="error-hint hidden">Name is required</span>
         </li>
         <li>
-          <input type="email" id="email" name="user_email" placeholder="abc@gmail.com" required>
+          <input type="email" class="invalid" id="email" name="user_email" placeholder="abc@gmail.com" required>
           <span class="error-hint hidden">Email is required</span>
         </li>
         <li>
-          <textarea id="msg" name="user_message" maxlength="500" type="text" placeholder="Write Your Message not more than 500 character" rows="5" required></textarea>
+          <textarea class="invalid" id="msg" name="user_message" maxlength="500" type="text" placeholder="Write Your Message not more than 500 character" rows="5" required></textarea>
+          <span class="error-hint hidden">Message is required</span>
         </li>
         <li class="button">
           <button type="submit">Get It Touch</button>
